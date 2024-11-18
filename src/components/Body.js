@@ -27,6 +27,14 @@ const Body = () => {
               </div>
           </div>
 
+          <div style={styles.card}>
+              <img src="/yurij.jpg" style={styles.photo} alt="Yurii Khoma" />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Yurii Khoma</h2>
+                  <p style={styles.position}>UI/UX Designer</p>
+              </div>
+          </div>
+
     </main>
   );
 };
