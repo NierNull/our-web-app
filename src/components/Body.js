@@ -2,14 +2,16 @@ import React from "react";
 
 const Body = () => {
   return (
-    <main style={styles.body}>
-      <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
-        <div style={styles.textContainer}>
-          <h2 style={styles.name}>John Doe</h2>
-          <p style={styles.position}>Software engineer</p>
-        </div>
-      </div>
+      <main style={styles.body}>
+
+          <div style={styles.card}>
+              <img src="/olena.jpg" style={styles.photo} alt="Olena Sitnikova" />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Olena Sitnikova</h2>
+                  <p style={styles.position}>Full-stack Developer of Team 4</p>
+              </div>
+          </div>
+
     </main>
   );
 };
