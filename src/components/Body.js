@@ -2,34 +2,19 @@ import React from "react";
 
 const Body = () => {
   return (
-      <main style={styles.body}>
-
-          <div style={styles.card}>
-              <img src="/olena.jpg" style={styles.photo} alt="Olena Sitnikova" />
+    <main style={styles.body}>
+     <div style={styles.card}>
+              <img src="/yurii.jpg" style={styles.photo} alt="Yurii Khoma" />
               <div style={styles.textContainer}>
-                  <h2 style={styles.name}>Olena Sitnikova</h2>
-                  <p style={styles.position}>Full-stack Developer of Team 4</p>
+                  <h2 style={styles.name}>Yurii Khoma</h2>
+                  <p style={styles.position}>UI/UX Designer 
+                  </p>
               </div>
           </div>
-          <div style={styles.card}>
-              <img src="/Sofiya.jpg" style={styles.photo} alt="Sofiya Svyd" />
-              <div style={styles.textContainer}>
-                  <h2 style={styles.name}>Sofiya Svyd</h2>
-                  <p style={styles.position}>Business analyst</p>
-              </div>
-          </div>
-
-          <div style={styles.card}>
-              <img src="/Maria.jpg" style={styles.photo} alt="Maria Semionyk" />
-              <div style={styles.textContainer}>
-                  <h2 style={styles.name}>Maria Semionyk</h2>
-                  <p style={styles.position}>Project-manager</p>
-              </div>
-          </div>
-
     </main>
   );
 };
+
 
 const styles = {
   body: {
